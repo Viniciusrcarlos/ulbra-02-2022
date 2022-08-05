@@ -1,3 +1,5 @@
 - Introdução aos algoritmos;
 - Mostrando o que é um algoritmo;
+- Lógica;
+- Seq de passos para fazer uma tarefa;
 -

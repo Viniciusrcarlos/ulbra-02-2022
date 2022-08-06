@@ -1,0 +1,20 @@
+- Apresentação do professor Lucas;
+- Apresentação dos alunos;
+- Objetivo da eng. de software é melhorar a qualidade do software e aumentar a produtividade e a satisfação dos desenvolvedores.
+
+    Princípio da Engenharia de Software
+
+- Formalidade (Reduzir inconsistências);
+- Abstração (Aspectos importantes, ignorar detalhes);
+- Decomposição (Lidar com complexidade);
+- Generálização (Reutilização, custo...);
+- Flexibilidade (Mudanças, processo incremental, incorporar a necessidade do cliente);
+
+
+    Ciclo de vida do Desenvolvimento de software
+
+- Análise;
+- Projeto;
+- Codificação;
+- Teste;
+- Manutenção;

@@ -1,1 +1,16 @@
-- 
+- Metodos de sesenvolvimento de software;
+
+- Método ágil: Faz um executavel com o mínimo possível e entrega para o cliente, e vai se adaptando conforme o desenvolvimento.
+* Indivíduos e interações ao invés de processos e
+ferramentas
+* Software executável ao invés de documentação
+* Colaboração do cliente ao invés de negociação de
+contratos
+* Respostas rápidas a mudanças ao invés de seguir
+planos
+
+- Extreme Programming (XP):
+* Comunicação;
+* Simplicidade;
+* Feedback constante.
+

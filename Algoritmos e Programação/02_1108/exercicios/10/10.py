@@ -4,3 +4,6 @@
 preco = float(input("Digite o preço do produto comprado: R$"))
 quantid = float(input("Digite a quantidade comprada: "))
 
+total = preco * quantid
+
+print("Você vai pagar um total de R$:",total)

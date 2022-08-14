@@ -1,0 +1,26 @@
+1) Comente os princípios da engenharia de software
+a. Formalidade: Produzir software com qualidade de acordo com procedimentos formais e seguidos de maneira efetiva.
+b. Abstração: Focar nos aspectos mais importantes, ignorando detalhes.
+c. Decomposição: Dividir em pequenas partes, assim, ficando mais fácil o trabalho.
+d. Generalização: Resolver um problema de forma genética, buscando reutilizar a solução em outros problemas.
+e. Flexibilização: Fazer mudanças e integrações conforme a necessidade.
+2) Comente as fases do ciclo de vida de desenvolvimento de um sistema de informação
+a. Análise: Descrever o que o software deve fazer, levantar requisitos, compreender o domínio do problema e funcionalidades.
+b. Projeto: Requer que a plataforma de desenvolvimento seja reconhecida, incorporação de requisitos, envolve duas grandes etapas: Projeto da arquitetura do sistema e Projeto detalhado.
+c. Codificação: Parte que é escrito nas IDE’s o software.
+d. Teste: Cada unidade de software deve ser testada e os resultados documentados, o sistema como um todo deve ser testado, inclui diversos níveis de testes: Teste de unidade, Teste de Integração e por fim, Teste de sistema.
+e. Manutenção: O software necessita de manutenção e mudança depois de ser entregue para o usuário, as vezes, a mudança é tão grande que necessita de um novo processo.
+3) Diferencie os dois tipos de metodologias de desenvolvimento de software
+a. Metodologias Tradicionais: Tentam entregar o software de uma vez só;
+b. Metodologias Ágeis: Fazem o principal do software para entregar, e vão aperfeiçoando conforme o avanço.
+4) De um exemplo de um projeto com escopo fechado e outro com escopo aberto.
+Escopo fechado ele está fechado para mudanças, entregando apenas o que foi combinado; Escopo aberto ele está aberto a mudanças, podendo se adaptar conforme o cliente solicita.
+5) O ciclo de vida em espiral é utilizado em quais metodologias? Quais são as fases?
+descreva o funcionamento
+No modelo espiral, as fazes são tratadas de modo cíclico, a cada iteração, o usuário tem acesso a novas versões do software, são usados em metodologias ágeis. As fases são: Viabilidade do projeto, Definiçãode requisitos do sistema, Projeto do sistema, Desenvolvimento e teste de unidade e Implantação.
+6) Comente 5 práticas da metodologia XP. cite uma vantagem para cada uma.
+Entregas frequentes: Conforme o desenvolvimento, é entregue uma nova versão. Usuário recebe os updates mais rápidos.
+Projeto simples: O programa de desenvolvimento deve ser simples e satisfazer os requisitos atuais. Foco no principal problema.
+Propriedade coletiva: O software pertence a todos os membros da equipe. Participação de todos envolvidos.
+Cliente presente: Participação do cliente no desenvolvimento. Cliente fica ciente de tudo que está acontecendo.
+Código padrão: Padroniza a arquitetura dos códigos. Fácil entendimento e compartilhamento.

@@ -1,3 +1,6 @@
+#Faça um algoritmo que leia um número inteiro e imprima seu antecessor e seu
+#sucessor.
+
 numero = int(input("Digite um número: "))
 
 ante = numero - 1

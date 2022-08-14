@@ -1,3 +1,6 @@
+#Faça um algoritmo para calcular a média aritmética entre três números quaisquer.
+
+
 numero1 = float(input("Digite um número: "))
 numero2 = float(input("Digite outro número: "))
 numero3 = float(input("Digite o último número: "))

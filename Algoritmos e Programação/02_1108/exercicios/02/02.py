@@ -1,3 +1,7 @@
+#Faça um algoritmo que leia dois números reais e imprima a soma e a média aritmética
+#desses números.
+
+
 numero1 = float(input("Digite o primeirro número: "))
 numero2 = float(input("Digite o segundo número: "))
 

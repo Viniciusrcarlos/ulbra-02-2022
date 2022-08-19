@@ -1,0 +1,3 @@
+- Aula EAD;
+- Correção de alguns exercicios;
+- If;

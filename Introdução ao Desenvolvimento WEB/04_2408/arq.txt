@@ -1,0 +1,9 @@
+- Introdução ao CSS;
+
+  Id da tag: #id
+• Usa o atributo id de um elemento HTML para selecionar um
+elemento específico.
+
+  Classe da tag: .class
+• Seleciona os elementos da classe com um atributo de específico para
+um grupo.

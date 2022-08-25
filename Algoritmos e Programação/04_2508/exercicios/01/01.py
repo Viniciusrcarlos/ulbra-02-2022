@@ -13,7 +13,7 @@
 #Instrução: O Algoritmo deve primeiramente receber as duas entradas e após imprimir na tela as solicitações na ordem proposta.
 
 from traceback import print_tb
-
+#teste
 
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segunda número: "))

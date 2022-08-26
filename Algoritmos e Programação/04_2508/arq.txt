@@ -1,0 +1,2 @@
+- Correção do exercicio da semana;
+- While

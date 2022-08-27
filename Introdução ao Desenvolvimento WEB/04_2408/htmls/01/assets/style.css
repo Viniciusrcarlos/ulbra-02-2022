@@ -3,6 +3,8 @@
     width: 50%;
     margin: 0 auto;
     padding: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
 }
 
 #titulo{
@@ -13,24 +15,25 @@
     border-radius: 10px;
 }
 #resumo{
-    border: solid 1px black;
-    border-radius: 10px;
-    background-color: aquamarine;
-    font-size: 13px;
+    width: 68%;
+    float: left; 
+    text-align: left;
+    vertical-align: middle;
+    font-size: 20px;	
+
 }
 
-#foto{
-    border: solid 1px black;
-    background-color: aquamarine;
-    border-radius: 10px;
-    text-align: center;
-    height: 100px;
+#foto{		 
+    width: 30%;
+    float: left; 
 }
-#avatarfoto{
-    height: 90px;
-    width: 90px;
+img{
+    width: 250px;
+    height: 250px;
 }
 .barra{
     display: flex;
-    
+}
+#obj{
+    left: 30%;
 }

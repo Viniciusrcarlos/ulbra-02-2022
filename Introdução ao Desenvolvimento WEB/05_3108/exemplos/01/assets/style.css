@@ -1,0 +1,31 @@
+.tudo{
+    border: solid 1px black;
+}
+
+.linha{
+    clear: both;
+}
+
+.esquerda{
+    width: 30%;
+    height: 100px;
+    float: left;
+    background-color: #666666;
+    color: #ffffff;
+}
+
+
+.direita{
+    width: 70%;
+    height: 100px;
+    float: right;
+    background-color: #aaaaaa;
+    color: black;
+}
+
+.unica{
+    border: solid 1px black;
+    background-color: whitesmoke;
+    height: 100px;
+    color: black;
+}

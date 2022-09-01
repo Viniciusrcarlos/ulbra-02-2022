@@ -1,0 +1,11 @@
+table{
+    background-color: black;
+    border-radius: 2px;
+}
+
+td{
+    border: solid 1px black; 
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}

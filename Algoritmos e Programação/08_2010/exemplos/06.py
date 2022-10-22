@@ -5,6 +5,6 @@ from operator import truediv
 i = int(input("Digite uma idade: "))
 while i < 6:
   print(i)
-  if i == 12:
+  if i == 3:
     break
   i += 1

@@ -1,0 +1,4 @@
+- Kanban: Postits que mostra o que eu devo fazer, o que está sendo feito e o que já foi feito;
+
+
+- 4 task para cada História de Usuário;

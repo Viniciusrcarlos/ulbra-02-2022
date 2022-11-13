@@ -1,6 +1,10 @@
-var numero = 1;
+var valorStr = prompt("Digite um valor: ");
+var valor = parseInt(valorStr);
 
-do{
-    alert("O número atual é: " + numero);
-    numero = numero + 1
-}while(numero <= 5)
+if(valor>10){
+    document.write("Maior que 10!")
+}else if(valor<10){
+    document.write("Menor que 10!")
+}else{
+    document.write("Igual a 10!")
+}

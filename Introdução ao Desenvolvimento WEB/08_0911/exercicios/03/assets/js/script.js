@@ -5,6 +5,24 @@ var operacao = prompt("Digite a operação que deseja fazer: ")
 var valor01 = parseFloat(valorUm);
 var valor02 = parseFloat(valorDois);
 
+switch (operacao){
+    case '+':
+        alert(valor01+valor02);
+        break
+    case '-':
+        alert(valor01-valor02);
+        break
+    case '*':
+        alert(valor01*valor02);
+    case '/':
+        break;
+        alert(valor01/valor02);
+        break;
+    default:
+        alert("ERRO");
+}
+
+/*
 if(operacao == "-"){
     resultado = valor01 - valor02
     document.write("A subtração dos dois números é: ",resultado)
@@ -19,3 +37,4 @@ if(operacao == "-"){
     document.write("A divisão dos dois valores é: ",resultado)
 }
 
+*/

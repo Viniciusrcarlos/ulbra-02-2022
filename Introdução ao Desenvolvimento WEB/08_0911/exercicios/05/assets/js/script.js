@@ -1,3 +1,13 @@
-var matriz = ["Vinicius", "Capão", "viniciusrauppcarlos@gmail.com"]
+var nome = prompt("Digite seu nome: ");
+var end = prompt("Digite seu endereço: ");
+var email = prompt("Digite seu email: ");
 
-document.write(matriz)
+var obj = {
+    propriedadenome: nome,
+    propriedadeend: end,
+    propriedadeemail: email   
+}
+
+document.write(obj.propriedadenome);
+document.write(obj.propriedadeend);
+document.write(obj.propriedadeemail);

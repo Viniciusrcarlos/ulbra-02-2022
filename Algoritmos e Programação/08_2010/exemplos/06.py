@@ -1,10 +1,15 @@
 #Faça um programa que receba várias idades, calcule e mostre a média das idades digitadas. Finalize digitando idade igual a zero.
 
-from operator import truediv
+idades = []
+i = 0
+while True:
+  idades.append(int(input('Digite uma idade: ')))
+  verif = str(input('Continuar? s/n    '))
+  if verif == 's':
+    continue
+  elif verif == 'n':
+    print(f'Quantidade de idades coletadas: {len(idades)}')
+    print(f'A média das idades coletadas é: {sum(idades)/len(idades)}')
 
-i = int(input("Digite uma idade: "))
-while i < 6:
-  print(i)
-  if i == 3:
-    break
-  i += 1
+
+

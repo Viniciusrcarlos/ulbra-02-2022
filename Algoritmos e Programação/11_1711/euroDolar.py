@@ -16,48 +16,67 @@ siteEuro = requests.get(euro, headers=headers)
 soupEuro = BeautifulSoup(siteEuro.content, 'html.parser')
 ur = float(soupEuro.find('span', class_='DFlfde SwHCTb').get_text().replace(",", "."))
 
-moeda = str(input("Qual sua moeda atual: "))
+moeda = str(input("Qual sua moeda atual (real, dolar ou euro): "))
 convert = str(input("Para qual moeda deseja converter? (dolar, real ou euro)"))
 valor = float(input("Qual o valor: "))
 
 # ur = euro  and  dol = dolar
 
-if moeda == 'real' and convert == 'dolar':
-    conversao = valor*dol
+if moeda == 'real' and convert == 'dolar': #ok
+    conversao = valor/dol
     print("")
     print("---------------------------------------")
-    print("Voçê tem: U$",valor)
-    print(f"A quantidade em reais é: R${conversao:.2f}")
-    print("Cotação do dolar atual: R$",dol)
+    print(f"Você tem {valor} reais.")
+    print(f"A quantidade em dolar é: {conversao:.2f}")
+    print(f"A cotação atual do dolar é: {dol}")
     print("---------------------------------------")
     print("")
-elif moeda == 'real' and convert == 'euro':
-    conversao = valor*ur
+elif moeda == 'real' and convert == 'euro': #ok
+    conversao = valor/ur
     print("")
     print("---------------------------------------")
-    print("Voçê tem: R$",valor)
+    print(f"Você tem {valor} reais.")
     print(f"A quantidade em euros são: UR:{conversao:.2f}")
-    print("Cotação do euro atual: R$",ur)
+    print(f"A cotação atual do euro é: {ur}")
     print("---------------------------------------")
     print("")
-elif moeda == 'dolar' and convert == 'reais':
+elif moeda == 'dolar' and convert == 'real': #ok
     conversao = valor*dol
     print("")
     print("---------------------------------------")
-    print("Voçê tem: U$:",valor)
+    print(f"Você tem {valor} dolares.")
     print(f"A quantidade em reais são: R$:{conversao:.2f}")
-    print("Cotação do dolar atual: ",dol)
+    print(f"A cotação atual do dolar é: {dol}")
     print("---------------------------------------")
     print("")
-elif moeda == 'dolar' and convert == 'euro':
+elif moeda == 'dolar' and convert == 'euro': #ok
     acont = valor*dol
     conversao = acont/ur
     print("")
     print("---------------------------------------")
-    print("Voçê tem: U$:",valor)
-    print(f"A quantidade em euro é: US:{conversao:.2f}")
-    print("Cotação do euro atual: ",ur)
+    print(f"Voçê tem {valor} dolares")
+    print(f"A quantidade em euro é:{conversao:.2f}")
+    print(f"A cotação atual do euro é: {ur}")
+    print(f"A cotação atual do dolar é: {dol}")
     print("---------------------------------------")
     print("")
-elif moeda == euro and convert == 'real':
-    
+elif moeda == 'euro' and convert == 'real': 
+    conversao = valor*ur
+    print("")
+    print("---------------------------------------")
+    print(f"Você tem {valor} euros.")
+    print(f"A quantidade em reais é: R${conversao:.2f}")
+    print(f"A cotação atual do euro é: {ur}")
+    print("---------------------------------------")
+    print("")
+elif moeda == 'euro' and convert == 'dolar':
+    acont = valor/dol
+    conversao = acont*ur
+    print("")
+    print("---------------------------------------")
+    print(f"Você tem {valor} euros.")
+    print(f"A quantidade em dolar é: {conversao:.2f}")
+    print(f"A cotação atual do euro é: {ur}")
+    print(f"A cotação atual do dolar é: {dol}")
+    print("---------------------------------------")
+    print("")
